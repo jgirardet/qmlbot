@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "qmlbot"
+version = "0.0.4"
+description = "Run  QML TestCase from python"
+authors = ["Jimmy Girardet <ijkl@netc.fr>"]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.9"
+typer = "^0.3.2"
+colorama = "^0.4.3"
+termcolor = "^1.1.0"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.782"
+black = "^20.8b1"
+isort = "^5.0.5"
+pre-commit = "^2.4.0"
+pytest = "^6.0.1"
+pytest-cov = "^2.8.1"
+mkdocs = "^1.1"
+mkdocs-material = "^5.1.5"
+markdown-include = "^0.6.0"
+PySide2 = "^5.15.1"
+pytest-qt = "^3.3.0"
+
+[build-system]
+requires = ["poetry>=1.0.10"]
+build-backend = "poetry.masonry.api"

@@ -1,0 +1,13 @@
+site_name: qmlbot
+site_description: Python QML Test Runner
+site_url: https://github.com/jgirardet/qmlbot
+
+theme:
+    name: 'material'
+
+repo_name: jgirardet/qmlbot
+repo_url: https://github.com/jgirardet/qmlbot
+edit_uri: ''
+
+nav:
+    - qmlbot: 'index.md'
